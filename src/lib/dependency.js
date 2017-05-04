@@ -1,3 +1,3 @@
-/**
- * Created by eyerburgh on 04/05/2017.
- */
+export default function dependency () {
+  return true
+}

@@ -3,16 +3,14 @@
 </template>
 
 <script>
-  import dependency from '../lib/dependency';
+  import dependency from '../lib/dependency'
 
-  export default{
+  export default {
     name: 'Component',
-
-    data() {
+    data () {
       return {
-        isActive: dependency({})
-      };
-    },
-
-  };
+        isActive: dependency()
+      }
+    }
+  }
 </script>
