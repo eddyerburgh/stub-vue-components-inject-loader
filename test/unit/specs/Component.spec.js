@@ -1,10 +1,10 @@
-import Vue from 'vue'
+import { mount } from 'avoriaz'
 import Component from '@/components/Component'
 
 describe('Component.vue', () => {
   it('should render correct contents', () => {
-    const Constructor = Vue.extend(Component)
-    const vm = new Constructor().$mount()
-    expect(vm.$el.className).to.equal('active')
+    const wrapper = mount(Component)
+    expect(wrapper.hasClass('active')).to.equal(true)
   })
 })
+
