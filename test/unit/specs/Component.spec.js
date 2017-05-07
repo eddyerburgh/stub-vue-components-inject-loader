@@ -8,8 +8,10 @@ describe('Component.vue', () => {
   })
 
   it('renders a div without class active when dependency returns false', () => {
+    Component.__Rewire__('dependency', () => false)
     const wrapper = mount(Component)
     expect(wrapper.hasClass('active')).to.equal(false)
+    Component.__ResetDependency__('dependency')
   })
 })
 
