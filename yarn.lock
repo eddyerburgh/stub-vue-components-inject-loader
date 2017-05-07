@@ -306,7 +306,7 @@ babel-core@^5.2.17:
     trim-right "^1.0.0"
     try-resolve "^1.0.0"
 
-babel-core@^6.22.1, babel-core@^6.24.1, babel-core@~6:
+babel-core@^6.22.1, babel-core@^6.24.1:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-6.24.1.tgz#8c428564dce1e1f41fb337ec34f4c3b022b5ad83"
   dependencies:
@@ -3014,11 +3014,11 @@ ini@^1.3.4, ini@~1.3.0:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.4.tgz#0537cb79daf59b59a1a517dff706c86ec039162e"
 
-inject-loader@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/inject-loader/-/inject-loader-3.0.0.tgz#0aea1f96e589e657bdbb6b26e7d9d41730e5b68f"
+inject-loader@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/inject-loader/-/inject-loader-2.0.1.tgz#1a7b45d60a81610459ac76079c3ce2a654d0dfc7"
   dependencies:
-    babel-core "~6"
+    loader-utils "^0.2.3"
 
 inquirer@^0.12.0:
   version "0.12.0"
@@ -3531,7 +3531,7 @@ loader-runner@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.3.0.tgz#f482aea82d543e07921700d5a46ef26fdac6b8a2"
 
-loader-utils@^0.2.15, loader-utils@^0.2.16, loader-utils@^0.2.5:
+loader-utils@^0.2.15, loader-utils@^0.2.16, loader-utils@^0.2.3, loader-utils@^0.2.5:
   version "0.2.17"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-0.2.17.tgz#f86e6374d43205a6e6c60e9196f17c0299bfb348"
   dependencies:
